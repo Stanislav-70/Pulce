@@ -1,0 +1,33 @@
+.reasons{
+	padding: 70px 0 80px 0;
+	background: #F6F6F6;
+	&__items{
+		margin-top: 65px;
+		display: flex;
+		justify-content: space-between;
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	&__subtitle{
+		margin-top: 35px;
+		font-weight: bold;
+		font-size: 18px;
+		text-align: center;
+		color: #0D0D0D;
+	}
+	&__text{
+		margin-top: 20px;
+		color: #0d0d0d;
+		width: 273px;
+		height: 91px;
+		text-align: center;
+		a{
+			text-decoration-line: underline;
+			color: #FF0000;
+			font-weight: 300;
+			font-size: 14px;
+		}
+	}
+}
