@@ -30,4 +30,16 @@
 			font-size: 14px;
 		}
 	}
+	&__icon{
+		&_animated{
+			animation: heartbeat 2s ease 1s infinite reverse forwards;
+			// animation-name: heartbeat;
+			// animation-duration: 2s;
+			// animation-timing-function: ease;
+			// animation-iteration-count: infinite;
+			&:hover{
+				animation-play-state: paused;
+			}
+		}
+	}
 }

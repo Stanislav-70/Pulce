@@ -11,10 +11,10 @@ $mail->CharSet = 'utf-8';
 // $mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.yandex.ru';  // Specify main and backup SMTP servers
+$mail->Host = 'ssl://smtp.yandex.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'perow.grischa@yandex.ru';                 // Наш логин
-$mail->Password = 'pivovarova2470';                           // Наш пароль от ящика
+$mail->Password = 'dbdqsltkqocdakfo' /* 'rcgiokuyoxjjdqat' */;             // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  

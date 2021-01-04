@@ -1,0 +1,49 @@
+@keyframes heartbeat {
+	from {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.35);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes stretching {
+	0% {
+	  width: 100px;
+	}
+	100% {
+	  width: 200px;
+	}
+  }
+
+  @keyframes rotate {
+	50% {
+	  transform: rotate(-90deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  @keyframes lift-up {
+	from {
+	  transform: translateY(0px);
+	}
+	50% {
+	  transform: translateY(-75px);
+	}
+	100% {
+	  transform: translateY(-180px);
+	}
+  }
+  
+  @keyframes shadow {
+	from {text-shadow: 0 0 3px black;}
+	50% {text-shadow: 0 0 30px black;}
+	to {text-shadow: 0 0 3px black;}
+}
+
+
